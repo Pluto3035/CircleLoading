@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //自定义属性
+    <declare-styleable name="PercentLoading">
+        //添加一个属性  属性名为backgroundColor 属性的值为color颜色
+        //背景圆环的颜色
+        <attr name="backgroundColor" format="color|reference"/>
+        //进度圆环的颜色
+        <attr name="foregroundColor" format="color|reference"/>
+        //文字的颜色   如果需要使用系统的 省略 format
+        <attr name="android:textColor"/>
+    </declare-styleable>
+
+</resources>
